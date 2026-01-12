@@ -60,7 +60,7 @@ interface PreviewCardProps {
 }
 
 function PreviewCard({ url, customTitle }: PreviewCardProps) {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<LinkPreview | null>(null);
 
   useEffect(() => {
     fetch(`/api/preview?url=${encodeURIComponent(url)}`)
