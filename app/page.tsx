@@ -12,9 +12,9 @@ interface LinkPreview {
 }
 // --- EDIT YOUR LINKS HERE ---
 const LINKS: LinkItem[] = [
-  { url: "https://www.instagram.com/cool.finds.ae", customTitle: "Instagram" },
-  { url: "https://www.tiktok.com/@cool.finds.ae", customTitle: "TikTok" },
-  { url: "https://youtube.com/@cool-finds-ae", customTitle: "YouTube" },
+  { url: "https://amzn.to/4qHRtl0", customTitle: "Get Amazon Prime" },
+  { url: "https://amzn.to/4qjdved", customTitle: "Amazon.ae Homepage" },
+  // { url: "https://youtube.com/@cool-finds-ae", customTitle: "YouTube" },
 ];
 
 export default function LinkTree() {
