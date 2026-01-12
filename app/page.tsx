@@ -14,7 +14,7 @@ interface LinkPreview {
 const LINKS: LinkItem[] = [
   { url: "https://amzn.to/4qHRtl0", customTitle: "Get Amazon Prime" },
   { url: "https://amzn.to/4qjdved", customTitle: "Amazon.ae Homepage" },
-  { url: "https://drive.google.com/file/d/1P0HNHi19rvCP1Ww-HItMKhn__fRp5zIY/view?usp=sharing", customTitle: "RV There Yet" },
+ // { url: "https://drive.google.com/file/d/1P0HNHi19rvCP1Ww-HItMKhn__fRp5zIY/view?usp=sharing", customTitle: "RV There Yet" },
 ];
 
 export default function LinkTree() {
