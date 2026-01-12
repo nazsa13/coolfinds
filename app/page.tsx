@@ -5,6 +5,11 @@ interface LinkItem {
   url: string;
   customTitle?: string;
 }
+interface LinkPreview {
+  title: string;
+  description: string;
+  image?: string;
+}
 // --- EDIT YOUR LINKS HERE ---
 const LINKS: LinkItem[] = [
   { url: "https://github.com/vercel", customTitle: "My GitHub Projects" },
