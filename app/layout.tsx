@@ -13,8 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cool Finds",
+  title: "Cool Finds AE",
   description: "All my essential product links in one place",
+  openGraph: {
+    title: "Cool Finds AE",
+    description: "All the products links",
+    url: "https://coolfinds.vercel.app",
+    siteName: "Cool Finds",
+    images: [
+      {
+        url: "/me.jpg", // This points to the file you added
+        width: 1200,
+        height: 1200,
+        alt: "Cool Finds AE Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
