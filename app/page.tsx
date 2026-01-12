@@ -37,7 +37,7 @@ export default function LinkTree() {
           <p className="text-gray-500 dark:text-gray-400">All Products Links Below 👇🏻</p>
         </header>
 
-        {LINKS.map((item: { url: string; customTitle?: string }) => (
+        {LINKS.map((item) => (
          <PreviewCard 
             key={item.url} 
              url={item.url} 
@@ -49,7 +49,12 @@ export default function LinkTree() {
   );
 }
 
-function PreviewCard({ url, customTitle }: { url: string; customTitle?: string }) {
+interface PreviewCardProps {
+  url: string;
+  customTitle?: string;
+}
+
+function PreviewCard({ url, customTitle }: PreviewCardProps) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
