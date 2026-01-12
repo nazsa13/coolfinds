@@ -1,9 +1,12 @@
 "use client";
 import { useEffect, useState } from 'react';
 
+interface LinkItem {
+  url: string;
+  customTitle?: string;
+}
 // --- EDIT YOUR LINKS HERE ---
-// --- EDIT YOUR LINKS HERE ---
-const LINKS = [
+const LINKS: LinkItem[] = [
   { url: "https://github.com/vercel", customTitle: "My GitHub Projects" },
   { url: "https://nextjs.org", customTitle: "Learn Web Development" },
   { url: "https://youtube.com", customTitle: "My Favorite Videos" },
