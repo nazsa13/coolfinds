@@ -13,8 +13,7 @@ interface LinkPreview {
 // --- EDIT YOUR LINKS HERE ---
 const LINKS: LinkItem[] = [
   { url: "https://amzn.to/4qHRtl0", customTitle: "Get Amazon Prime" },
-  { url: "https://amzn.to/4qjdved", customTitle: "Amazon.ae Homepage" },
- // { url: "https://drive.google.com/file/d/1P0HNHi19rvCP1Ww-HItMKhn__fRp5zIY/view?usp=sharing", customTitle: "RV There Yet" },
+  { url: "https://amzn.to/3YNoq3H", customTitle: "01: Eco Tank Printers Ink" },
 ];
 
 export default function LinkTree() {
